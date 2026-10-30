@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-remem-me is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://remem.me/
+remem-me provides the free, ad‑free Remember Me Bible memory app, a Swiss nonprofit platform that helps over 2 million believers memorize Scripture using spaced‑repetition, interactive games, flashcards, and visual aids. Available on web, Android, iOS and Windows, the app supports 300+ translations, offline use, progress tracking, and community‑shared verse collections. The service is open‑source, community‑driven, and committed to privacy with no data selling.
+
+**Areas:** Bible · Memory · Nonprofit · Education · MobileApp · OpenSource
+
+## remem-me on APIs.io
+
+Everything profiled for remem-me is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/remem-me/](https://apis.io/providers/remem-me/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [remem-me Access API](https://apis.io/apis/remem-me/remem-me-access-api/) — Authentication and account management
+- [remem-me Collections API](https://apis.io/apis/remem-me/remem-me-collections-api/) — Public browsable verse collections (no auth required)
+- [remem-me Replication API](https://apis.io/apis/remem-me/remem-me-replication-api/) — Offline-first data sync endpoints (authenticated)
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Remem Me Agentic Access](https://apis.io/agentic-access/remem-me/remem-me-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/remem-me/remem-me-account/)
+- [AccountRequest](https://apis.io/schemas/remem-me/remem-me-account-request/)
+- [MetricsResponse](https://apis.io/schemas/remem-me/remem-me-metrics-response/)
+- [PatchedAccountRequest](https://apis.io/schemas/remem-me/remem-me-patched-account-request/)
+- [Verse](https://apis.io/schemas/remem-me/remem-me-verse/)
+- [VerseRequest](https://apis.io/schemas/remem-me/remem-me-verse-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Remem Me Context](https://apis.io/jsonld/remem-me/remem-me-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [remem-me API Rules](https://apis.io/rules/remem-me/remem-me-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Remem Me Authentication](https://apis.io/security/remem-me/remem-me-authentication/)
+- [Remem Me Domain Security](https://apis.io/security/remem-me/remem-me-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://remem.me/)
+- [Documentation](https://www.remem.me/docs/)
+- [Getting started](https://www.remem.me/docs/guides/quickstart/)
+- [API reference](https://rpl.remem.me/api/docs/)
+- [Terms of service](https://www.remem.me/terms/)
+- [Privacy policy](https://www.remem.me/privacy/)
+- [GitHub](https://gitlab.com/remem-me)
+
+## API Evangelist rating
+
+**Kin Score 46.7** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 58.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 21.1 |
+
+**Agent readiness 43.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/remem-me/](https://apis.io/providers/remem-me/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for remem-me: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/remem-me/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
